@@ -23,7 +23,7 @@ class AquariumCodeTranslator {
         for (int i = 0; i < IntToBinary.length(); i++) {
             if (IntToBinary.charAt(i) == '1') {
                 ans = ans.concat("Fish");
-            } else if (ans.charAt(i) == '0') {
+            } else if (IntToBinary.charAt(i) == '0') {
                 ans = ans.concat("Water");
             }
         }
